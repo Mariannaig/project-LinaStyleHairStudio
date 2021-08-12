@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title> Lina Style Hair studio</title>
     <style>
        
@@ -23,17 +23,19 @@
         
         body{
             min-height: 100%; 
-            padding-top: 1em;           
+            padding-top: 4.5em;           
             background-image: url(./images/backgroundImage1.jpg), url(./images/backgroundImage2.jpg), url(./images/backgroundImage3.jpg), url(./images/backgroundImage4.jpg), url(./images/backgroundImage5.jpg), url(./images/backgroundImage6.jpg), url(./images/backgroundImage7.jpg), url(./images/backgroundImage8.jpg), url(./images/backgroundimage9.jpg);
-            background-size: 100% 100%;
+            background-size: cover;
             text-align: center;
             font-family: 'Open Sans Condensed', sans-serif;
             letter-spacing: 0.07em;
-            color: #fff;          
+            color: #fff;  
+            /* border: 5px solid red;         */
         }
 
        header .menu{
            margin-left: 3em;
+           position: relative;           
        }
         header .menu>div{
             display: inline-block;
@@ -61,44 +63,45 @@
             text-align: left;
         }
         #logo{
-            position: relative;
-            margin: auto .5em;
+            /* margin: auto .5em; */
             background-color: transparent;                            
          }
 
          #logo>img{             
-            position: absolute;            
-            left:-3em;
-            top: -4.1em;              
+            position: absolute;
+            top: -4.5vh;
+            left: 33.3vw;                        
+            width: 25vw;
+            height: 40vh;                
+                          
          }
+
          .infoTabs{
              position: relative;
          }
     
          main .infoTabs>div{            
             display: inline-block; 
-            width: 15em;
-            height: 4.5em;                        
+            width: 25vw;
+            height: 15vh;                        
             margin-top: 10em;
             margin-bottom: 1em;
             margin-right: .1em;
-            padding-top: 1em;            
+            padding-top: 1em;           
             background-color: #de5f8599;
             border-radius: 4px;
             vertical-align: middle;
-            text-align: center; 
-            
-            
-                                   
+            text-align: left;                                    
          }
-
+         
          .infoTabs img{
             float: left;
             padding-top: 0.7em; 
-            padding-left: 0.5em;          
+            padding-left: 1em;
+            padding-right: 1.5em;          
             width: 2em;
-            height: 2em;
-         }
+            height: 2em;                     
+         }              
          
          .title{
             font-weight: bold;
@@ -146,6 +149,7 @@
                     <div>Вторник - Неделя</div>
                     <div>11:30 - 19:00</div>
                     <div>Понеделник - почивен ден</div>
+                    
                 </div>
             </div>
             
@@ -154,12 +158,14 @@
                 <div><span class="title">Адрес:</span>
                     <div>гр. Хасково</div>
                     <div>Ул. "Преображение" №5</div>
+                    
                 </div>
             </div>
             <div>
-                <div> <img src="./images/calendar.png" alt="Запазване на час">
+                <div> <img src="./images/calendar.png" alt="Запазване на час"></div>
                 <div><span class="title">Запазете час сега:</span> 
                     <div>+359878662920</div>
+                    
                 </div>                
             </div>
         </div>
@@ -180,7 +186,7 @@
             <div>гр. Хасково</div>
             <div>Ул. "Преображение" №5</div>
         </div> <br>
-        <!-- <div><i class="fab fa-facebook"></i></div> <br> не работи? нямаше същата версия в Bootstrap -->
+        <div><i class="fab fa-facebook"></i></div> <br>
         <div id="rights"> © Всички права запазени Lina Style Hair Studio | Designed by MariannaIG </div> 
     </footer>
     

@@ -1,0 +1,110 @@
+html{    
+    margin: 0;
+    padding: 0;
+    background-color: #AAAAAA;
+}  
+
+
+body{
+    min-height: 100%;
+    width: 100%;
+    margin: 0 auto; 
+    padding: 0;
+    display: block;
+    /* background-image: url(./images/backgroundImage1.jpg); */
+    background-size: cover;
+    text-align: center;
+    letter-spacing: 0.07em;
+    color: #fff;
+    font-family: 'Poiret One', cursive;
+    /* border: 5px solid red;         */
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+footer{ 
+    height: 10em;           
+    padding-top: 3em;
+    border-top: 2px groove #FFF;
+    vertical-align: middle;
+    background-color: #7776;        
+}
+
+                           
+footer>div{
+    display: inline-block;          
+    margin-right: 3em;
+    margin-bottom: 1em;
+    vertical-align: top;
+    text-align: center;
+    
+}
+
+header .menu>div{
+    height: min-content;
+    width: 15vw;
+    margin-top: .3em;           
+    padding-top:.5em;       
+    padding-bottom:.5em;
+    display: inline-block;    
+    background-color: #de5f8599;
+    /* border: 2px solid rgba(0, 0, 0, 0.39); */
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+header .menu a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+
+.title{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#logo{
+    width: 20%; 
+    background-color: transparent;
+    border: 2px solid black; 
+    color: #000;
+    font-size: 3.5em; 
+    font-family: 'Sacramento', cursive;                       
+}
+
+#logo>a{
+    color: #000;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+#EN{
+    width: 2em;
+    color: #000;
+    font-style: italic;
+    font-weight: bold; 
+}
+
+#EN a{
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+#facebook a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+#rights{
+    font-size: 0.7em;
+}
+

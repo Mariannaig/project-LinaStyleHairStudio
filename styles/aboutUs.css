@@ -1,0 +1,89 @@
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../images/markus-winkler-mizZpR87a8E-unsplash.jpg);
+    background-size: cover;
+}
+
+main{
+    margin-top: 5em;
+    margin-bottom: 2em;
+    display: inline-block;
+}
+
+section{
+    background-color: #d3d61499;
+
+}
+
+h1{    
+    height: 2em;
+    width: 100%;
+    line-height: 2em; 
+    font-size: 3em;    
+    color: rgb(255, 255, 255);
+}
+
+main>div{
+    margin-top: 3em;
+    padding: 1em 1em;
+    padding-bottom: 4.5em;
+    width: 100%;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.658);
+    color: #000;
+    font-size: 1.5em;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+main div img{   
+    width: 30%;
+    height: 80%;
+    float: left;
+    padding-right: 1em;
+    opacity: 0.9;
+}
+main div span{
+    font-weight: bold;
+}
+
+header .menu>div{
+    background-color: #d3d61499;
+}
+
+#aboutUs{
+    border: 2px solid #000;
+
+}
+
+#aboutUs>a{
+    color: black;
+    font-weight: bold;
+}
+
+
+/* --------------- When hover and click  with mouse ----------------*/
+header #aboutUs:hover {
+    background-color: #de5f8599;    
+}
+header #contacts:hover {
+    background-color: #de5f8599;    
+}header #gallery:hover {
+    background-color: #de5f8599;    
+}header #services:hover {
+    background-color: #de5f8599;    
+}header #EN:hover {
+    background-color: #de5f8599;    
+}
+header div a:active{
+    color: black;
+    font-weight: bold;   
+}
+
+/* ---------------------------------------------------------------- */
+
+
+
+
+

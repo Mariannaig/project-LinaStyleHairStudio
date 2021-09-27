@@ -1,0 +1,97 @@
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../images/edz-norton-s2UUKPH90b0-unsplash.jpg);
+    background-size: contain;
+}
+
+main{
+    margin-top: 5em;
+    margin-bottom: 2em;   
+}
+
+section{
+    background-color: #d3d61499;
+
+}
+
+h1{    
+    height: 2em;
+    width: 100%;
+    line-height: 2em; 
+    font-size: 3em;    
+    color: #000;
+}
+
+main div{
+    margin-top: 1em;
+    color: #000;
+    font-size: 1.1em; 
+    display: inline-block;   
+}
+
+footer>div{
+    color: #000;
+    font-size: 1.1em;    
+}
+
+main>div>div>img{
+    height: 75vh;
+    width: 25vw;
+
+}
+
+main>div>div>img:hover{
+    cursor: pointer;
+}
+
+header>div a{
+    color: #000;
+}
+
+footer>div>span>a{
+    color: #000;    
+}
+
+header .menu>div{
+    background-color: #d3d61499;
+}
+
+#gallery{
+    border: 2px solid #000;
+
+}
+
+#gallery>a{
+    color: black;
+    font-weight: bold;
+}
+
+footer #rights{
+    font-weight: 600;
+}
+
+footer #facebook>a{
+    color: #000;
+}
+
+
+/* --------------- When hover and click  with mouse ----------------*/
+
+header #aboutUs:hover {
+    background-color: #de5f8599;    
+}
+header #contacts:hover {
+    background-color: #de5f8599;    
+}header #gallery:hover {
+    background-color: #de5f8599;    
+}header #services:hover {
+    background-color: #de5f8599;    
+}header #EN:hover {
+    background-color: #de5f8599;    
+}
+header div a:active{
+    color: black;
+    font-weight: bold;   
+}
+/* ---------------------------------------------------------------- */

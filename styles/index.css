@@ -1,0 +1,176 @@
+
+html{            
+    margin: 0 auto;
+    padding: 0;
+    background-color: #AAAAAA;            
+}  
+
+
+body{
+    min-height: 100%;
+    width: 100%;
+    margin: 0 auto; 
+    padding: 0;
+    background-image: url(../images/backgroundImage1.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    letter-spacing: 0.07em;
+    color: #fff;
+    /* border: 5px solid red;         */
+}
+
+main{
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+footer{
+    /* display: inline-block;  */
+    height: 15%;
+    width: 100%;           
+    padding-top: 3em;
+    vertical-align: middle;
+    border-top: 2px groove #FFF;
+    background-color: #7776;                        
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+footer>div{
+    height: 5%;
+    width: 20%;                     
+    margin-right: 3em;
+    margin-bottom: 1em;
+    display: inline-block; 
+    vertical-align: top;
+    text-align: center;            
+}
+
+header .menu{
+    height: 15%;
+    width: 100%;
+}
+
+
+
+header .menu>div{            
+    height: fit-content;
+    width: 15%;
+    margin-top: .3em;           
+    padding-top:.5em;
+    padding-bottom: .5em;
+    display: inline-block;
+    text-align: center;
+    background-color: #de5f8599;
+    /* border: 2px solid rgba(0, 0, 0, 0.39); */
+    border-radius: 4px;
+    font-size: 1.3em;
+}
+
+header .menu a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.slogan{
+    padding-top: 3em;
+    font-size: 1.6em;
+    color: #FFF;
+ }
+
+main .infoTabs>div{             
+    height: 5em;            
+    width: 30%;                                   
+    margin-top: 8em;
+    margin-bottom: 1em;
+    margin-right: .2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #de5f8599;
+    border-radius: 4px;            
+ }
+
+main .infoTabs a{
+    display: block;
+    height: 100%;
+    width: 100%;
+ }
+
+.infoTabs div img{
+    height: 3em;
+    width: 3em;             
+    float: left;
+    padding-top: .5em; 
+    padding-left: 1.5em;        
+ } 
+             
+.title{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#logo{
+    width: 20%; 
+    background-color: transparent;
+    border: 2px solid black; 
+    color: #000;
+    font-size: 3.5em;            
+    font-family: 'Sacramento', cursive;          
+ }
+
+
+
+#EN{
+    width: 2em;
+    color: #000;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#rights{
+    font-size: 0.7em;
+}
+
+
+#EN a{
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#logo>a{
+    height: 100%;
+    width: 100%;
+    color: #000;
+    display: block;
+    
+}
+
+/* --------------- When hover and click  with mouse ----------------*/
+
+header #aboutUs:hover {
+    background-color: #d3d61499;  
+}
+header #contacts:hover {
+    background-color: #d3d61499;    
+}header #gallery:hover {
+    background-color: #d3d61499;    
+}header #services:hover {
+    background-color: #d3d61499;    
+}header #EN:hover {
+    background-color: #d3d61499;    
+}
+header div a:active{
+    color: black;
+    font-weight: bold;   
+}
+
+/* ---------------------------------------------------------------- */

@@ -1,0 +1,91 @@
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../images/markus-winkler-jid7TSoa02c-unsplash.jpg);
+    background-size: cover;    
+}
+
+main{
+    margin-top: 5em;
+    margin-bottom: 2em;     
+}
+
+h1{   
+    height: 2em;
+    width: 100%;
+    line-height: 2em; 
+    font-size: 3em;    
+    color: #000;    
+}
+
+section{
+    background-color: #d3d61499;  
+}
+
+main div{
+    margin-top: 3em;
+    color: #000;
+    font-size: 1.1em;    
+}
+
+footer>div{
+    color: #000;
+    font-size: 1.1em;    
+}
+
+header>div a{
+    color: #000;
+}
+
+footer>div>span>a{
+    color: #000;    
+}
+
+main div b{
+    font-weight: bold;
+}
+
+#contacts{
+    border: 2px solid #000;
+
+}
+
+#contacts>a{
+    color: black;
+    font-weight: bold;
+}
+
+header .menu>div{
+    background-color: #d3d61499;
+}
+
+footer #rights{
+    font-weight: 600;
+}
+
+footer #facebook>a{
+    color: #000;
+}
+
+
+
+/* --------------- When hover and click  with mouse ----------------*/
+
+header #aboutUs:hover {
+    background-color: #de5f8599;    
+}
+header #contacts:hover {
+    background-color: #de5f8599;    
+}header #gallery:hover {
+    background-color: #de5f8599;    
+}header #services:hover {
+    background-color: #de5f8599;    
+}header #EN:hover {
+    background-color: #de5f8599;    
+}
+header div a:active{
+    color: black;
+    font-weight: bold;   
+}
+
+/* ---------------------------------------------------------------- */

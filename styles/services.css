@@ -1,6 +1,14 @@
-body{
-    min-height: 100vh;
+html{
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
     width: 100%;
+}
+
+
+body{
+    /* min-height: 100vh;
+    width: 100%; */
     background-image: url(../images/markus-winkler-jid7TSoa02c-unsplash.jpg);
     background-size: cover;    
 }
@@ -39,22 +47,26 @@ main>div{
 
 main>div>.left{
     width: 30%;
-    height: 80vh;
+    height: 100%;
     position: absolute;
     left: 0;
 }
 
 main>div>.right{
     width: 30%;
-    height: 80vh;
+    height: 100%;
     position: absolute;
     right: 0;
 }
 
-main>div>div{
-    position: absolute;
-    top: 11.5em;
-    left: 30em;
+main>div{
+    min-height: fit-content;
+    width: 100%;
+}
+
+main>div>div{    
+    padding: 15% 0;
+    text-align: center;  
 
 }
 

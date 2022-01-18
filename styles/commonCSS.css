@@ -75,7 +75,8 @@ header .menu a{
     border: 2px solid black; 
     color: #000;
     font-size: 3.5em; 
-    font-family: 'Sacramento', cursive;                       
+    font-family: 'Sacramento', cursive;  
+    
 }
 
 #logo>a{

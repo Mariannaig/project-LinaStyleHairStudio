@@ -3,6 +3,7 @@ body{
     width: 100%;
     background-image: url(../images/markus-winkler-mizZpR87a8E-unsplash.jpg);
     background-size: cover;
+    font-family: 'Poiret One', cursive;
 }
 
 main{
